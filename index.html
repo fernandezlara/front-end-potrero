@@ -4,55 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="./css/estilos.css">
     <title>Chipa</title>
 </head>
 <body>
-    <h1>Chipa Paraguaya</h1>
-    
-    <p class="texto-principal">La chipa es un alimento tradicional de los paraguayos y culturalmente conocido como ícono de la gastronomía paraguaya entre los países del MERCOSUR. Este alimento cuya base tradicional es el almidón de mandioca y queso, es consumido en diversos tiempos de comida ya sea solo o acompañado, en el desayuno junto con mate cocido o para el tereré rupa (cama o base para el tereré, momento donde un alimento es consumido antes de tomar tereré).</p>
+    <!-- Apertura Header -->
+    <header>
+        <h1 id="tit-page">Recetas Latinoamericanas</h1>
+    </header>
+    <!-- Cierre Header -->
 
+    <!-- Barra de navegación -->
+    <nav id="nav-receta">
+        <a href="https://www.paulinacocina.net/receta-de-locro-argentino/9829" class="recetas" target="_blank" alt="receta de locro"><b>Locro</b></a>
+        <a href="https://www.midiariodecocina.com/pastel-de-choclo-alternativa/" class="recetas" target="_blank" alt="receta de pastel de choclo"><b>Pastel de Choclo</b></a>
+        <a href="https://www.cocina-brasilena.com/recetas/plato-principal/feijoada" class="recetas" target="_blank" alt="receta de feijoada"><b>Feijoada</b></a>
+        <a href="https://www.cocina-boliviana.com/recetas/entradas/sonso-de-yuca" class="recetas" target="_blank" alt="receta de sonso de yuca"><b>Sonso de Yuca</b></a> 
+    </nav>
 
-        <img class="centrar; mediana"src="./img/chipa-paraguaya.jpg" alt="chipa paraguaya tradicional">
-        <br>
+    <section>
+        <h1 id="tit-receta">Chipa Paraguaya</h1>
         <audio class="centrar" src="./audio/cancion_chipa.mp3" controls ;></audio>
 
-    <p class="texto-principal">Prueba de su vigencia son sus variedades, hasta setenta, las cuales siguen componiendo el desayuno y la merienda tradicional del país.</p>
-    <p class="texto-principal">Su preparación y consumo es ampliamente difundida de generación en generación y lo que hace encontrarla en cualquier punto del país. <b>Ha sido declarada como alimento tradicional del Paraguay</b> según Ley N° 5267/2014, <b>estableciendo el segundo viernes de agosto como “Día Nacional del Chipá”.</b></p>
-    
-        <iframe class="video" src="https://www.youtube.com/embed/qNnTsgxWZWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-    
-    <h2>¿Las querés en casa? Te compartimos la receta tradicional:<h2>
+        <p class="texto-principal">La chipa es un alimento tradicional de los paraguayos y culturalmente conocido como ícono de la gastronomía paraguaya entre los países del MERCOSUR. Este alimento cuya base tradicional es el almidón de mandioca y queso, es consumido en diversos tiempos de comida ya sea solo o acompañado, en el desayuno junto con mate cocido o para el tereré rupa (cama o base para el tereré, momento donde un alimento es consumido antes de tomar tereré).</p>
+        <p class="texto-principal">Prueba de su vigencia son sus variedades, hasta setenta, las cuales siguen componiendo el desayuno y la merienda tradicional del país.</p>
+        <p class="texto-principal">Su preparación y consumo es ampliamente difundida de generación en generación y lo que hace encontrarla en cualquier punto del país. <b>Ha sido declarada como alimento tradicional del Paraguay</b> según Ley N° 5267/2014, <b>estableciendo el segundo viernes de agosto como “Día Nacional del Chipá”.</b></p>
+        <div>
+             <img class="mediana"src="./img/chipa-paraguaya.jpg" alt="chipa paraguaya tradicional">
+        </div>
+        <div>
+            <iframe class="video" src="https://www.youtube.com/embed/qNnTsgxWZWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
 
-    <h3>Ingredientes:</h3>
+    <section>
+        <h2>¿Las querés en casa? Te compartimos la receta tradicional:<h2>
 
-    <ul class="lista-desord">
-        <li type="circle">450 grs de harina de mandioca</li>
-        <li type="circle">200 grs de queso paraguayo rallado</li>
-        <li type="circle">110 grs de mantequilla</li>
-        <li type="circle">100 ml de leche</li>
-        <li type="circle">4 huevos</li>
-        <li type="circle">1 cucharadita de semillas de anís</li>
-        <li type="circle">½ cucharadita de sal</li>
-    </ul>
+        <h3>Ingredientes:</h3>
+        <ul class="lista-desord">
+            <li type="circle">450 grs de harina de mandioca</li>
+            <li type="circle">200 grs de queso paraguayo rallado</li>
+            <li type="circle">110 grs de mantequilla</li>
+            <li type="circle">100 ml de leche</li>
+            <li type="circle">4 huevos</li>
+            <li type="circle">1 cucharadita de semillas de anís</li>
+            <li type="circle">½ cucharadita de sal</li>
+         </ul>
 
-    <h3>Preparación:</h3>
+        <h3>Preparación:</h3>
 
-    <ol class="lista-ord">
-        <li>En un bol grande reunir la mantequilla y los huevos ligeramente batidos, mezclar por de minutos hasta integrar, 
-            incorporar el queso paraguayo rallado (o una mezcla de mozzarella y parmesano) y las semillas de anís, 
-            revolver todo nuevamente hasta integrar.</li>
-        <li>Añadir la leche con la sal disuelta en ella, la harina de mandioca cernida y amasar todo hasta obtener una mezcla homogénea.</li>
-        <li>Dividir la masa en cuatro trozos iguales, dividir nuevamente cada trozo en 4 porciones, ovillar suavemente cada porción y disponer sobre una bandeja, cubrir con papel film y reposar en el refrigerador por unos 20 minutos.</li>
-        <li>Encender y pre-calentar el horno a 220°C (428°F) por al menos unos 10 minutos.</li>
-        <li>Amasar cada porción, estirar con la palma de las manos para forman un cordón de unos 15 centímetros de por 1 ½ centímetro de diámetro, juntar los extremos para formar un círculo y sellar presionando con los dedos, repetir con toda la masa y distribuir sobre una bandeja de horno cubierta con papel de cocina separados por unos 10 centímetros uno de otro.</li>
-        <li>Llevar la bandeja al horno pre-calentado y cocinar chipas por unos 20 a 25 minutos hasta que estén ligeramente doradas. Retirar del horno y enfriar sobre una rejilla.</li>
-    </ol>
-    <p class="lista-ord">Y listo, ¡a disfrutar!</p>
-    <br>
+        <ol class="lista-ord">
+            <li>En un bol grande reunir la mantequilla y los huevos ligeramente batidos, mezclar por de minutos hasta integrar, 
+                incorporar el queso paraguayo rallado (o una mezcla de mozzarella y parmesano) y las semillas de anís, 
+                revolver todo nuevamente hasta integrar.</li>
+            <li>Añadir la leche con la sal disuelta en ella, la harina de mandioca cernida y amasar todo hasta obtener una mezcla homogénea.</li>
+            <li>Dividir la masa en cuatro trozos iguales, dividir nuevamente cada trozo en 4 porciones, ovillar suavemente cada porción y disponer sobre una bandeja, cubrir con papel film y reposar en el refrigerador por unos 20 minutos.</li>
+            <li>Encender y pre-calentar el horno a 220°C (428°F) por al menos unos 10 minutos.</li>
+            <li>Amasar cada porción, estirar con la palma de las manos para forman un cordón de unos 15 centímetros de por 1 ½ centímetro de diámetro, juntar los extremos para formar un círculo y sellar presionando con los dedos, repetir con toda la masa y distribuir sobre una bandeja de horno cubierta con papel de cocina separados por unos 10 centímetros uno de otro.</li>
+             <li>Llevar la bandeja al horno pre-calentado y cocinar chipas por unos 20 a 25 minutos hasta que estén ligeramente doradas. Retirar del horno y enfriar sobre una rejilla.</li>
+        </ol>
+        <p class="lista-ord">Y listo, ¡a disfrutar!</p>
+        <br>
+    </section>
 
-    <h4>Si visitas Paraguay no olvides pasar por <a href="https://felicianadefarina.com.py/chiperia/" class="enlace"><i>Hijas de Feliciana de Fariña</i></a>, la chipería más tradicional del país, te compartimos la ubicación:</h4>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.2161739601493!2d-57.626217685495455!3d-25.29694013384416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da80a80dca315%3A0x3626e7c69b08bbaf!2sHijas%20de%20Feliciana%20de%20Fari%C3%B1a!5e0!3m2!1ses!2sar!4v1665860482200!5m2!1ses!2sar" width="500" height="350" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <aside>
+        <h4>Si visitas Paraguay no olvides pasar por <a href="https://felicianadefarina.com.py/chiperia/" class="enlace" target="_blank"><i>Hijas de Feliciana de Fariña</i></a>, la chipería más tradicional del país, te compartimos la ubicación:</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.2161739601493!2d-57.626217685495455!3d-25.29694013384416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da80a80dca315%3A0x3626e7c69b08bbaf!2sHijas%20de%20Feliciana%20de%20Fari%C3%B1a!5e0!3m2!1ses!2sar!4v1665860482200!5m2!1ses!2sar" id="mapa" width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </aside>
+
+    <footer>
+        <div class="rrss">
+            <a href="https://wwww.facebook.com" target="_blank"><img src="./img/facebook.png" class="icono-rrss" alt="logo facebook"></a>
+            <a href="https://wwww.instagram.com" target="_blank"><img src="./img/instagram.png" class="icono-rrss" alt="logo instagram"></a>
+            <a href="https://wwww.youtube.com" target="_blank" ><img src="./img/youtube.png" class="icono-rrss" alt="logo youtube"></a>
+            <a href="https://chat.whatsapp.com/BunOGeh6TNd1fvtEvDipOU" target="_blank"><img src="./img/whatsapp.png" id="wapp" alt="logo facebook"></a>
+
+        </div> 
+    </footer>
 </body>
 </html>
