@@ -1,13 +1,32 @@
-body {background-color:beige; 
+body {
+    background-color:beige; 
     padding:3%;
 }
 
 header{
-    height: 275px;
-    background-image: url(../img/wooden-spoons-with-condiments.jpg);
+    background-image: url(../img/header-5.png);
     background-size:cover;
-    background-position: top;
-    background-color: white;
+    background-position:top;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.logo {
+    width: 12%;
+    border-radius:200%;
+    margin-right: 10px;
+}
+.rrss-header {
+    width: 25%;
+    margin-left: 10px;
+}
+.icono-rrss-h {
+    width: 15%;
+    padding-left: 5px;
+    padding-right: 5px;    
 }
 
 #tit-page { 
@@ -19,8 +38,10 @@ header{
     font-size: 50px;
     font-family: Georgia;
     text-align: center;
-    padding-top: 7%;
     font-weight: bolder;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 50%;
 }
 
 #nav-receta { 
@@ -118,15 +139,32 @@ footer {
     margin-top: 10px;
     height: 50%;
     width: 100%;
-    text-align: center;
     left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+.mapa-f {
+    margin-right: 100px;
+}
+
+.rrss-footer {
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
 .icono-rrss {
     height: 40px;
     width: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.texto-f {
+    margin-left: 100px;
 }
 
 #wapp {
