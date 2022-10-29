@@ -1,2 +1,2 @@
 # front-end-potrero
-Práctico Front End 1
+Práctico Front End
