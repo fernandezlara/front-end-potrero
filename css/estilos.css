@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@400;500&family=Kreon:wght@300;400;500&display=swap');
+
 body {
     background-color:beige; 
     padding:3%;
@@ -11,22 +13,22 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-height: 20vh;
+    min-height: 30vh;
+    
 }
 
 .logo {
-    width: 12%;
+    width: 12vw;
     border-radius:200%;
-    margin-right: 10px;
+    margin-right: 2%;
 }
 .rrss-header {
-    width: 25%;
-    margin-left: 10px;
+    width: 25vw;
 }
 .icono-rrss-h {
     width: 15%;
-    padding-left: 5px;
-    padding-right: 5px;    
+    padding-left: 2%;
+    padding-right: 2%;    
 }
 
 #tit-page { 
@@ -35,111 +37,140 @@ header{
     1px -2px 0 black,
     -2px 2px 0 black,
     2px 2px 0 black;
-    font-size: 50px;
-    font-family: Georgia;
+    font-size: 350%;
+    font-family: Akshar;
     text-align: center;
     font-weight: bolder;
-    margin-right: 50px;
-    margin-left: 50px;
-    width: 50%;
+    margin-right: 4%;
+    margin-left: 4%;
 }
 
 #nav-receta { 
-    padding-top: 10px;
+    padding-top: 1.5%;
     height: 50%;
     width: 100%;
     text-align: center;
 }
 .recetas {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
     color: brown;
-    font-family: Georgia;
-    font-size: 20px ;
+    font-family: Kreon, serif;
+    font-size: 150%;
+}
+.recetas:hover {
+    background-color: brown;
+    color: beige;
+}
+
+#nav-contacto {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: black;
+    font-family: Kreon, serif;
+    font-size: 155%;
+}
+#nav-contacto:hover {
+    background-color: black;
+    color: beige;
 }
 
 #tit-receta  { 
     background-color: brown; 
     color:beige; 
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Akshar, sans-serif;
     font-style: oblique;
     text-align: center;
-    font-size: 30px;
+    font-size: 200%;
 }
-.texto-principal { color:rgb(226, 50, 50); 
-    font-size:large; 
-    font-family: georgia, sans-serif;
+.texto-principal { 
+    color:rgb(226, 50, 50); 
+    font-size:120%; 
+    font-family: kreon, serif;
 }
 .centrar{
     margin:auto;
     display:block;
 }
 img.mediana { 
-    width: 500px;
-    height: 300px;
+    width: 38vw;
+    height: 50vh;
     display:block;
     float: left;
-    margin-right: 10px;
-    margin-left: 25px;
+    margin-right: 2%;
+    margin-left: 2%;
     border-style: solid;
     border-color: rgb(97, 58, 58);
 }
 
 .video { 
-    width: 500px;
-    height: 300px;
+    width: 38vw;
+    height: 50vh;
     display:block;
-    padding-left: 50px;
-    margin-right: 25px;
-    margin-left: 10px;
+    padding-left: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 h2 { color:brown; 
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 130%;
+    font-family: Akshar, sans-serif;
+    font-size: 150%;
 
 }
-h3 { color:brown; 
-    font-family:Georgia, 'Times New Roman', Times, serif;
+h3 { 
+    color:brown; 
+    font-family: Akshar, sans-serif;
     text-decoration-line: underline;
-    font-size: 120%;
+    font-size: 140%;
 }
 
-.lista-desord { color:rgb(97, 58, 58); 
-    font-size:medium; 
-    font-family: georgia, sans-serif;
+.lista-desord { 
+    color:rgb(97, 58, 58); 
+    font-size:120%; 
+    font-family: kreon, serif;
     list-style:circle;
 }
-.lista-ord { color:rgb(97, 58, 58); 
-    font-size:medium; 
-    font-family: georgia, sans-serif;
+.lista-ord { 
+    color:rgb(97, 58, 58); 
+    font-size:120%; 
+    font-family: kreon, serif;
     text-align: justify;
     list-style:decimal;
 }
 h4 { color:rgb(226, 50, 50); 
-    font-size:medium; 
-    font-family: georgia, sans-serif;
+    font-size: 120%; 
+    font-family: kreon, serif;
 }
-.enlace { color:rgb(194, 45, 45);
-    font-size:medium; 
-    font-family: georgia, sans-serif;
+.enlace { 
+    color:rgb(226, 50, 50); 
+    font-size:110%; 
+    font-family: kreon, serif;
+}
+
+.enlace:hover {
+    color:rgb(194, 45, 45);
+    font-style: italic;
 }
 
 #mapa {
-    margin-right: 10px;
-    margin-left: 25px;
-    border-radius: 5px;
+    width: 40vw; 
+    height: 50vh;
+    margin-right: 8%;
+    margin-left: 2%;
+    border-radius: 1%;
 }
 
 footer {
     background-color: brown;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-top: 1.5%;
     height: 50%;
     width: 100%;
-    left: 100px;
+    left: 1.5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,33 +178,49 @@ footer {
 }
 
 .mapa-f {
-    margin-right: 100px;
+    width: 22vw; 
+    height: 16vh;
+    margin-right: 3%;
 }
 
 .rrss-footer {
     display: flex;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 3%;
+    margin-left: 6%;
+    width: 25vw;
 
 }
 .icono-rrss {
-    height: 40px;
-    width: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 33%;
+    padding-left: 1%;
+    padding-right: 1%;      
 }
 
 .texto-f {
-    margin-left: 100px;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: Akshar, sans-serif;
+    font-size: 130%;
 }
 
 #wapp {
-    height: 40px;
-    width: 40px;
+    width: 3%;
     position: fixed;
-    bottom: 62px;
-    right: 60px;
+    bottom: 4%;
+    right: 4%;
     
 }
 
+.icono-rrss-cont {
+    width: 4%;
+    padding-left: 1%;
+    padding-right: 1%;    
+}
+
+.texto-contact {
+    display: inline-block;
+    color:rgb(97, 58, 58); 
+    font-size:120%; 
+    font-family: kreon, serif;
+}
 
