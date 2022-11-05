@@ -5,6 +5,7 @@ body {
     padding:3%;
 }
 
+/* header */
 header{
     background-image: url(../img/header-5.png);
     background-size:cover;
@@ -13,8 +14,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-height: 30vh;
-    
+    min-height: 30vh;    
 }
 
 .logo {
@@ -45,15 +45,26 @@ header{
     margin-left: 4%;
 }
 
+/* barra de navegacion */
 #nav-receta { 
     padding-top: 1.5%;
+    padding-bottom:1.5%;;
     height: 50%;
     width: 100%;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#latam {
+    width: 6%;
+    height: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: none;
 }
 .recetas {
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     padding-left: 4%;
     padding-right: 4%;
     color: brown;
@@ -66,8 +77,8 @@ header{
 }
 
 #nav-contacto {
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     padding-left: 4%;
     padding-right: 4%;
     color: black;
@@ -79,13 +90,30 @@ header{
     color: beige;
 }
 
+/* seccion principal */ 
+#tit-ppal {
+    height: 10%;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 #tit-receta  { 
-    background-color: brown; 
     color:beige; 
     font-family: Akshar, sans-serif;
     font-style: oblique;
     text-align: center;
     font-size: 200%;
+}
+#bandera-py {
+    width: 3.5vmax;
+    height: 7.5vmin;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .texto-principal { 
     color:rgb(226, 50, 50); 
@@ -96,25 +124,32 @@ header{
     margin:auto;
     display:block;
 }
+#img-vid {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 img.mediana { 
-    width: 38vw;
-    height: 50vh;
-    display:block;
+    width: 38vmax;
+    height: 50vmin;
     float: left;
     margin-right: 2%;
     margin-left: 2%;
     border-style: solid;
-    border-color: rgb(97, 58, 58);
+    border-color: rgb(97, 58, 58); 
+    display: flex;
 }
-
 .video { 
-    width: 38vw;
-    height: 50vh;
-    display:block;
+    width: 38vmax;
+    height: 50vmin;
     padding-left: 3%;
     margin-right: 2%;
     margin-left: 2%;
+    display: flex;
 }
+
+/* receta */
 h2 { color:brown; 
     font-family: Akshar, sans-serif;
     font-size: 150%;
@@ -140,6 +175,8 @@ h3 {
     text-align: justify;
     list-style:decimal;
 }
+
+/* aside */
 h4 { color:rgb(226, 50, 50); 
     font-size: 120%; 
     font-family: kreon, serif;
@@ -163,6 +200,7 @@ h4 { color:rgb(226, 50, 50);
     border-radius: 1%;
 }
 
+/* footer */
 footer {
     background-color: brown;
     padding-top: 1.5%;
@@ -224,3 +262,41 @@ footer {
     font-family: kreon, serif;
 }
 
+/* media queries */
+
+@media (max-width: 575px){
+    body {
+        background-color:rgba(235, 195, 85, 0.932);
+    }
+    #tit-page{
+        color: rgba(235, 195, 85, 0.932);
+    } 
+    #tit-receta {
+        color: rgba(235, 195, 85, 0.932);
+    }
+    .recetas:hover {
+        color: rgba(235, 195, 85, 0.932);
+    }
+    #nav-contacto:hover {
+        color: rgba(235, 195, 85, 0.932);
+    }
+    #latam {
+        display: inline;
+    }
+}
+
+@media (max-width: 768px) {
+    header{
+        background-image: url(../img/header-4.jpg);
+    }
+    #latam {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    #bandera-py{
+        display: none;
+    }
+
+}

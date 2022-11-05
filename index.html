@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lara Fernandez">
+    <meta name="description" content="Recetas Latinoamericas">
+    <meta name="keywords" content="recetas latinoamericanas, recetas, latinoamerica, comida latina">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Recetas Latinoamericanas</title>
 </head>
@@ -29,6 +32,7 @@
 
     <!-- Barra de navegación -->
     <nav id="nav-receta">
+        <img src="./img/latam.png" id="latam" alt="banderas de paises latinoamericanos">
         <a href="https://www.paulinacocina.net/receta-de-locro-argentino/9829" class="recetas" target="_blank" alt="receta de locro"><b>Locro</b></a>
         <a href="https://www.midiariodecocina.com/pastel-de-choclo-alternativa/" class="recetas" target="_blank" alt="receta de pastel de choclo"><b>Pastel de Choclo</b></a>
         <a href="https://www.cocina-brasilena.com/recetas/plato-principal/feijoada" class="recetas" target="_blank" alt="receta de feijoada"><b>Feijoada</b></a>
@@ -39,17 +43,24 @@
 
     <!-- Sección Receta -->
     <section>
-        <h1 id="tit-receta">Chipa Paraguaya</h1>
-        <audio class="centrar" src="./audio/cancion_chipa.mp3" controls ;></audio>
+        <div id="tit-ppal">
+            <h1 id="tit-receta">Chipa Paraguaya</h1>
+            <br>
+            <img id="bandera-py" src="./img/paraguay.png" alt="icono bandera paraguay">
+        </div>
+        
+        <audio class="centrar" src="./audio/cancion_chipa.mp3" controls></audio>
 
         <p class="texto-principal">La chipa es un alimento tradicional de los paraguayos y culturalmente conocido como ícono de la gastronomía paraguaya entre los países del MERCOSUR. Este alimento cuya base tradicional es el almidón de mandioca y queso, es consumido en diversos tiempos de comida ya sea solo o acompañado, en el desayuno junto con mate cocido o para el tereré rupa (cama o base para el tereré, momento donde un alimento es consumido antes de tomar tereré).</p>
         <p class="texto-principal">Prueba de su vigencia son sus variedades, hasta setenta, las cuales siguen componiendo el desayuno y la merienda tradicional del país.</p>
         <p class="texto-principal">Su preparación y consumo es ampliamente difundida de generación en generación y lo que hace encontrarla en cualquier punto del país. <b>Ha sido declarada como alimento tradicional del Paraguay</b> según Ley N° 5267/2014, <b>estableciendo el segundo viernes de agosto como “Día Nacional del Chipá”.</b></p>
-        <div>
-             <img class="mediana"src="./img/chipa-paraguaya.jpg" alt="chipa paraguaya tradicional">
-        </div>
-        <div>
-            <iframe class="video" src="https://www.youtube.com/embed/qNnTsgxWZWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="img-vid">
+            <div>
+                <img class="mediana"src="./img/chipa-paraguaya.jpg" alt="chipa paraguaya tradicional">
+            </div>
+            <div>
+                <iframe class="video" src="https://www.youtube.com/embed/qNnTsgxWZWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
     </section>
 
