@@ -285,12 +285,15 @@ footer {
     }
 }
 
+@media (min-width: 768px){
+    #latam {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     header{
         background-image: url(../img/header-4.jpg);
-    }
-    #latam {
-        display: none;
     }
 }
 
@@ -298,5 +301,4 @@ footer {
     #bandera-py{
         display: none;
     }
-
 }
