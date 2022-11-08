@@ -20,13 +20,13 @@ header{
 .logo {
     width: 12vw;
     border-radius:200%;
-    margin-right: 2%;
 }
 .rrss-header {
     width: 25vw;
+    text-align: center;
 }
 .icono-rrss-h {
-    width: 15%;
+    width: 4vw;
     padding-left: 2%;
     padding-right: 2%;    
 }
@@ -37,7 +37,7 @@ header{
     1px -2px 0 black,
     -2px 2px 0 black,
     2px 2px 0 black;
-    font-size: 350%;
+    font-size: 8vmin;
     font-family: Akshar;
     text-align: center;
     font-weight: bolder;
@@ -200,6 +200,48 @@ h4 { color:rgb(226, 50, 50);
     border-radius: 1%;
 }
 
+/* contenedor con recetas */
+.container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-lg3 {
+    width: 15rem;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.card-img-top {
+    width: 15vw;
+	height: 20vh;
+	object-fit:cover;
+    border-radius: 10%;
+}
+
+.card-title {
+    color: rgb(194, 45, 45);
+    font-family:Akshar, sans-serif;
+    font-size: x-large;
+}
+
+.card-text {
+    font-family:Akshar, sans-serif;
+}
+
+.btn-secondary {
+    font-family:Akshar, sans-serif;
+    background-color: rgb(194, 45, 45);
+}
+
+
 /* footer */
 footer {
     background-color: brown;
@@ -285,12 +327,12 @@ footer {
     }
 }
 
+
 @media (min-width: 768px){
     #latam {
         display: none;
     }
 }
-
 @media (max-width: 768px) {
     header{
         background-image: url(../img/header-4.jpg);
@@ -301,4 +343,5 @@ footer {
     #bandera-py{
         display: none;
     }
+
 }
