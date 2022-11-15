@@ -10,8 +10,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Recetas Latinoamericanas</title>
+    <script>alert("¡Bienvenide a Recetas Latinoamericanas!")</script>
 </head>
 <body>
+    <button onclick="temaOscuro()" id="tema-osc">Tema Oscuro</button>
+    <br>
     <!-- Apertura Header -->
     <header>
         <img src="./img/logo-1.png" class= "logo" alt="logo">
@@ -49,7 +52,7 @@
             <br>
             <img id="bandera-py" src="./img/paraguay.png" alt="icono bandera paraguay">
         </div>
-        
+        <br>
         <audio class="centrar" src="./audio/cancion_chipa.mp3" controls></audio>
 
         <p class="texto-principal">La chipa es un alimento tradicional de los paraguayos y culturalmente conocido como ícono de la gastronomía paraguaya entre los países del MERCOSUR. Este alimento cuya base tradicional es el almidón de mandioca y queso, es consumido en diversos tiempos de comida ya sea solo o acompañado, en el desayuno junto con mate cocido o para el tereré rupa (cama o base para el tereré, momento donde un alimento es consumido antes de tomar tereré).</p>
@@ -66,10 +69,10 @@
     </section>
 
     <section>
-        <h2>¿Las querés en casa? Te compartimos la receta tradicional:<h2>
+        <h2 id="tit2">¿Las querés en casa? Te compartimos la receta tradicional:<h2>
 
-        <h3>Ingredientes:</h3>
-        <ul class="lista-desord">
+        <h3 id="tit3">Ingredientes:</h3>
+        <ul id="lista1" class="lista-desord">
             <li type="circle">450 grs de harina de mandioca</li>
             <li type="circle">200 grs de queso paraguayo rallado</li>
             <li type="circle">110 grs de mantequilla</li>
@@ -79,9 +82,9 @@
             <li type="circle">½ cucharadita de sal</li>
          </ul>
 
-        <h3>Preparación:</h3>
+        <h3 id="tit4">Preparación:</h3>
 
-        <ol class="lista-ord">
+        <ol id="lista2" class="lista-ord">
             <li>En un bol grande reunir la mantequilla y los huevos ligeramente batidos, mezclar por de minutos hasta integrar, 
                 incorporar el queso paraguayo rallado (o una mezcla de mozzarella y parmesano) y las semillas de anís, 
                 revolver todo nuevamente hasta integrar.</li>
@@ -91,7 +94,7 @@
             <li>Amasar cada porción, estirar con la palma de las manos para forman un cordón de unos 15 centímetros de por 1 ½ centímetro de diámetro, juntar los extremos para formar un círculo y sellar presionando con los dedos, repetir con toda la masa y distribuir sobre una bandeja de horno cubierta con papel de cocina separados por unos 10 centímetros uno de otro.</li>
              <li>Llevar la bandeja al horno pre-calentado y cocinar chipas por unos 20 a 25 minutos hasta que estén ligeramente doradas. Retirar del horno y enfriar sobre una rejilla.</li>
         </ol>
-        <p class="lista-ord">Y listo, ¡a disfrutar!</p>
+        <p id="lista3" class="lista-ord">Y listo, ¡a disfrutar!</p>
         <br>
     </section>
     <!-- Cierre Sección Receta -->
@@ -108,7 +111,7 @@
                     <img src="./img/tacos-mex.jpg" class="card-img-top" alt="tacos mexicanos">
                     <div class="card-body">
                       <h5 class="card-title">Tacos</h5>
-                      <p class="card-text">La mejor receta de esta tradicional comida de México.</p>
+                      <p id="text1" class="card-text">La mejor receta de esta tradicional comida de México.</p>
                       <a href="https://www.cocinacaserayfacil.net/tacos-mexicanos/" class="btn btn-secondary">Ir a la receta</a>
                     </div>
                 </div>
@@ -117,7 +120,7 @@
                     <img src="./img/recet-venezuela.jpg" class="card-img-top" alt="pabellon criollo">
                     <div class="card-body">
                       <h5 class="card-title">Pabellón Criollo</h5>
-                      <p class="card-text">No te pierdas esta tipica comida venezolana.</p>
+                      <p id="text2" class="card-text">No te pierdas esta tipica comida venezolana.</p>
                       <a href="https://www.recetas-venezolanas.com/recetas/plato-principal/pabellon-criollo" class="btn btn-secondary">Ir a la receta</a>
                     </div>
                 </div>
@@ -126,7 +129,7 @@
                     <img src="./img/causa-peru.jpg" class="card-img-top" alt="causa limeña">
                     <div class="card-body">
                       <h5 class="card-title">Causa Limeña</h5>
-                      <p class="card-text">La mejor receta de esta tradicional comida de Perú.</p>
+                      <p id="text3" class="card-text">La mejor receta de esta tradicional comida de Perú.</p>
                       <a href="https://www.recetasgratis.net/receta-de-causa-limena-31268.html" class="btn btn-secondary">Ir a la receta</a>
                     </div>
                 </div>
@@ -135,7 +138,7 @@
                     <img src="./img/bolon-ecuador.jpg" class="card-img-top" alt="bolon de verde">
                     <div class="card-body">
                       <h5 class="card-title">Bolón de Verde</h5>
-                      <p class="card-text">No te pierdas esta tipica comida ecuatoriana.</p>
+                      <p id="text4" class="card-text">No te pierdas esta tipica comida ecuatoriana.</p>
                       <a href="https://www.cocina-ecuatoriana.com/recetas/entradas/bolon-de-verde" class="btn btn-secondary">Ir a la receta</a>
                     </div>
                 </div>
@@ -152,9 +155,10 @@
             <a href="https://www.youtube.com" target="_blank" ><img src="./img/youtube.png" class="icono-rrss" alt="logo youtube"></a>
             <a href="https://chat.whatsapp.com/BunOGeh6TNd1fvtEvDipOU" target="_blank"><img src="./img/whatsapp.png" id="wapp" alt="logo whatsapp"></a>
         </div> 
-        <p class="texto-f">Lara Fernandez - Potrero Digital <b>Frontend</b></p>
+        <button id="info" class="texto-f" onclick="infoFooter()">Creadora</button>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="./js/javascript.js"></script>
 </body>
 </html>
